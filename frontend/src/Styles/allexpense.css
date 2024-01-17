@@ -1,0 +1,25 @@
+.allExpense {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.expensecontainer {
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.expenseContents {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

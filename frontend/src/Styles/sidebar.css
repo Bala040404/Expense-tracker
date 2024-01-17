@@ -1,0 +1,42 @@
+.sidebar {
+    color: black;
+    width: 1%;
+    height: 100vh;
+    background-color: rgb(132, 132, 132);
+    display: flex;
+    transition: 0.2s;
+}
+
+.contents {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.name {
+    color: rgb(124, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navLinks {
+    text-decoration: none;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.active {
+    background-color: rgb(87, 87, 87);
+
+}
+
+.sidebar:hover {
+    width: 12%;
+
+    .contents {
+        display: flex;
+    }
+}

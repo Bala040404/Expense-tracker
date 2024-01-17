@@ -1,0 +1,48 @@
+.expense {
+    color: black;
+    border: 1px solid rgb(177, 186, 186);
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.expenseDate {
+    width: 20%;
+    height: 80%;
+    text-align: center;
+}
+
+.expenseReason {
+
+    height: 3vh;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+}
+
+
+.expensePrice {
+
+    width: 20%;
+    height: 80%;
+    text-align: center;
+
+}
+
+.colorcode {
+    margin-left: auto;
+    width: 1%;
+    height: 100%;
+}
+
+.red {
+    background-color: rgb(231, 87, 87);
+}
+
+.green {
+    background-color: rgb(121, 234, 134);
+}

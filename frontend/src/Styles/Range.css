@@ -1,0 +1,28 @@
+.range {
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+
+}
+
+.filterButton {
+    width: 40px;
+}
+
+.startDate {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.endDate {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-evenly;
+}

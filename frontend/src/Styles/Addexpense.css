@@ -1,0 +1,48 @@
+.addExpenseContainer {
+    width: 100%;
+
+}
+
+.addExpense {
+    margin: 50px auto;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.addExpense div {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.red {
+    background-color: rgb(231, 87, 87);
+    border: 1px solid red;
+}
+
+.green {
+    background-color: rgb(121, 234, 134);
+    border: 1px solid green;
+}
+
+.borderRed {
+    border: 1px solid red;
+}
+
+
+.borderGreen {
+    border: 1px solid green;
+}
+
+.options {
+    background-color: aliceblue;
+}
+
+.addButton {
+    width: 50px
+}
